@@ -1,0 +1,19 @@
+# Site settings
+name: G Media Labs
+title: G Media Labs
+email: labs@gmedia.co.uk
+description: "Techy observations and useful tidbits from the people at @gmedia."
+baseurl: ""
+url: "http://labs.gmedia.co.uk"
+
+# Build settings
+permalinks: pretty
+
+highlighter: pygments
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+highlighter: pygments
+future: false
