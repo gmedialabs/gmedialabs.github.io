@@ -5,5 +5,5 @@ date: 2014-05-09
 ---
 
 <div style="background: red;">
-   This is a custom div.
+   This is a custom div. Testing
 </div>
