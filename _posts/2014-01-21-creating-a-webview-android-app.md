@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Creating a Basic Android App - Part 1
-subtitle: Introduction and WebView. 
+subtitle: Introduction and WebView.
 excerpt: How to create a basic Android app running a WebView.
-categories: tutorial android
+categories: android
+permalink: /android/creating-a-webview-app-part1.html
 comments: true
 ---
 
@@ -140,7 +141,7 @@ webView.setWebChromeClient(new WebChromeClient() {
 	}
 });
 
-webView.setWebViewClient(new WebViewClient() {        
+webView.setWebViewClient(new WebViewClient() {
       @Override
       public void onReceivedError(WebView view, int errorCode, String description, String url) {
            // Received error when loading page.
