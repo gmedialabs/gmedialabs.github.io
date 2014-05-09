@@ -5,6 +5,7 @@ author: Gav Richards
 date:   2013-12-18 14:10:49
 category: hack
 tags: hack-day
+permalink: /hack-day-2013
 ---
 
 We've completed our first ever Hack Day at G Media.

@@ -34,6 +34,11 @@ a:visited { color: #155B97; }
   zoom: 1;
 }
 
+::selection {
+  color: #fff;
+  background: #EC008C;
+}
+
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -202,6 +207,10 @@ a:visited { color: #155B97; }
   letter-spacing: -1.25px;
 }
 
+.post-content {
+  word-wrap:break-word;
+}
+
 .post-content h3 {
   font-size: 26px;
   letter-spacing: -1px;
@@ -210,6 +219,12 @@ a:visited { color: #155B97; }
 .post-content h4 {
   font-size: 20px;
   letter-spacing: -1px;
+}
+
+.post-content img {
+  max-width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .post-content blockquote {
@@ -227,6 +242,7 @@ a:visited { color: #155B97; }
 
 code {
   color: white;
+  word-wrap:break-word;
 }
 
 .post pre,
@@ -238,6 +254,8 @@ code {
   -moz-border-radius: 3px;
   border-radius: 3px;
   font-size: 15px;
+  overflow-y: scroll;
+  word-wrap:normal;
 }
 
 .post code { padding: 1px 5px; }
